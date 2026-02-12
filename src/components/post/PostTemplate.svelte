@@ -2,7 +2,7 @@
 	import dateFormat from 'dateformat';
 	import InteractionTemplate from './InteractionTemplate.svelte';
 
-	let { date, content = null, likes = 0, comments = 0, imageSrc = null } = $props();
+	let { date, content = null, imageSrc = null } = $props();
 </script>
 
 <div class="flex max-w-lg flex-col gap-4 border border-[#83C092] p-4">
@@ -22,7 +22,7 @@
 		<img src={imageSrc} class="w-full" alt="" />
 	{/if}
 	<div class="flex flex-row items-center justify-around">
-		<InteractionTemplate icon="ri-thumb-up-line" count={likes} />
-		<InteractionTemplate icon="ri-chat-4-line" count={comments} />
+		<InteractionTemplate icon="ri-thumb-up-line" />
+		<InteractionTemplate icon="ri-chat-4-line" />
 	</div>
 </div>
