@@ -4,7 +4,7 @@
 
 <div class="fixed flex h-screen w-64 flex-col gap-2 bg-[#272E33] p-4">
 	<div class="p-2 text-2xl">Not The Social Network</div>
-	<SidebarButton icon="ri-news-line" text="About" route="/" filledIcon="ri-news-fill" />
+	<SidebarButton icon="ri-home-4-line" text="Life" route="/" filledIcon="ri-home-4-fill" />
 	<SidebarButton
 		icon="ri-kanban-view"
 		text="Projects"
