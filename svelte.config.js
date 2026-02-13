@@ -9,7 +9,8 @@ const config = {
 			fallback: undefined,
 			precompress: false,
 			strict: true
-		})
+		}),
+		outDir: '.svelte-kit/cloudflare'
 	}
 };
 
