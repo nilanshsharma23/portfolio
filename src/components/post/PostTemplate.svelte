@@ -2,7 +2,13 @@
 	import dateFormat from 'dateformat';
 	import InteractionTemplate from './InteractionTemplate.svelte';
 
-	let { date, content = null, imageSrc = null } = $props();
+	let {
+		date,
+		content = null,
+		imageSrc = null,
+		youtubeVideoURL = null,
+		youtubeVideoTitle = null
+	} = $props();
 </script>
 
 <div class="flex max-w-lg flex-col gap-4 border border-[#83C092] p-4">
@@ -15,11 +21,22 @@
 	</div>
 	{#if content}
 		<div class="text-xl sm:text-2xl">
-			{content}
+			{@html content}
 		</div>
 	{/if}
 	{#if imageSrc}
 		<img src={imageSrc} class="w-full" alt="" />
+	{/if}
+	{#if youtubeVideoURL}
+		<iframe
+			src={youtubeVideoURL}
+			title={youtubeVideoTitle}
+			height="512"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
 	{/if}
 	<div class="flex flex-row items-center justify-around">
 		<InteractionTemplate icon="ri-thumb-up-line" />
