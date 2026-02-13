@@ -17,5 +17,4 @@
 		route="/tech-stack"
 		filledIcon="ri-svelte-fill"
 	/>
-	<SidebarButton icon="ri-hashtag" text="Socials" route="/socials" filledIcon="ri-hashtag" />
 </div>

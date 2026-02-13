@@ -7,6 +7,7 @@
 </svelte:head>
 
 <div class="flex w-full flex-col items-center gap-4 p-8">
+	<div class="mb-4 block text-center text-4xl lg:hidden">Not The Social Network</div>
 	<PostTemplate
 		date="January 3 2023"
 		content="It's been a long time since I've made anything, but I decided to lock in and make an actual and finished mobile game. It's called Underwater Rush and is made with the Unity Game Engine. I love it."
