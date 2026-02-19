@@ -20,7 +20,7 @@
 		</div>
 	</div>
 	{#if content}
-		<div class="text-xl sm:text-2xl">
+		<div class="text-lg sm:text-xl">
 			{@html content}
 		</div>
 	{/if}

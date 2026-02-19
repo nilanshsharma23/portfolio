@@ -7,12 +7,12 @@
 		<img src="/pfp_transparent.png" alt="" class="h-24 w-24" />
 		<div class="text-4xl">Nilansh Sharma</div>
 	</div>
-	<div class="text-2xl">High school student who likes making games and apps that help society.</div>
-	<div class="flex flex-row gap-4 text-2xl text-[#7A8478]">
+	<div class="text-xl">High school student who likes making games and apps that help society.</div>
+	<div class="flex flex-row gap-4 text-xl text-[#7A8478]">
 		<i class="ri-map-pin-2-line"></i>
 		<div>Noida, India</div>
 	</div>
-	<div class="flex flex-row gap-4 text-2xl text-[#7A8478]">
+	<div class="flex flex-row gap-4 text-xl text-[#7A8478]">
 		<i class="ri-school-line"></i>
 		<div>DPS Indirapuram</div>
 	</div>
